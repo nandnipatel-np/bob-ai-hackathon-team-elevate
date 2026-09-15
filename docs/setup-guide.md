@@ -6,10 +6,12 @@
 
 Before you begin, ensure you have the following installed:
 
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+- XAMPP
+- Apache
+- MySQL
+- PHP
+- Web browser such as Google Chrome
+- Git (optional, for cloning the repository)
 
 ## Environment Variables
 
@@ -30,27 +32,44 @@ cp .env.example .env
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/[your-org]/[your-repo].git
-cd [your-repo]
+git clone https://github.com/naiyaptl/bob-ai-hackathon-team-elevate.git
 
-# 2. Install backend dependencies
-[your command — e.g.: pip install -r requirements.txt]
+# 2. Copy the project into the XAMPP htdocs folder
 
-# 3. Install frontend dependencies (if applicable)
-[your command — e.g.: cd frontend && npm install]
+# Example:
+C:\xampp\htdocs\Campus-Canteen-Pre-Order-System
 
-# 4. Set up the database (if applicable)
-[your command — e.g.: python manage.py migrate]
+# 3. Start XAMPP
+
+# Start:
+Apache
+MySQL
+
+# 4. Create the MySQL database using phpMyAdmin
+
+# Open:
+http://localhost/phpmyadmin
+
+# 5. Create the required database and import the project SQL/database structure.
+
+# 6. Check the PHP database configuration file and update:
+# database name
+# username
+# password
+# host
 ```
 
 ## Running the Application
 
 ```bash
-# Start the backend
-[your command — e.g.: uvicorn app.main:app --reload]
+1. Open XAMPP Control Panel.
+2. Start Apache.
+3. Start MySQL.
+4. Make sure the project is inside the XAMPP htdocs directory.
+5. Open a web browser.
+6. Access the application using:
+http://localhost/Campus-Canteen-Pre-Order-System/
 
-# Start the frontend (in a separate terminal, if applicable)
-[your command — e.g.: cd frontend && npm run dev]
 ```
 
 The application will be available at: `http://localhost:[PORT]`
@@ -58,7 +77,20 @@ The application will be available at: `http://localhost:[PORT]`
 ## Running Tests
 
 ```bash
-[your test command — e.g.: pytest tests/ -v]
+he current hackathon prototype does not include an automated testing framework.
+
+The application can be manually tested by checking:
+
+User registration and login
+Menu browsing
+Adding items to cart
+Placing orders
+Payment information
+Order management
+Admin functionality
+SuperAdmin functionality
+Reports
+
 ```
 
 ## Quick Demo (Optional)
@@ -66,14 +98,18 @@ The application will be available at: `http://localhost:[PORT]`
 If you have a demo script or sample data to showcase the project quickly:
 
 ```bash
-[e.g.: python demo/seed_demo_data.py]
-[e.g.: open http://localhost:8000/demo]
+# 1. Start XAMPP
+# 2. Start Apache and MySQL
+# 3. Open the application in your browser
+
+http://localhost/Campus-Canteen-Pre-Order-System/
+
 ```
 
 ## Troubleshooting
 
 | Issue | Solution |
 |---|---|
-| [e.g., `ModuleNotFoundError`] | [e.g., Run `pip install -r requirements.txt` again] |
-| [e.g., Database connection refused] | [e.g., Ensure PostgreSQL is running: `docker compose up db`] |
-| [e.g., watsonx.ai 401 error] | [e.g., Check `WATSONX_API_KEY` in your `.env` file] |
+| Apache does not start | Check whether another application is using port 80 or 443, then restart Apache. |
+| MySQL does not start | Check the MySQL service and make sure its port is not being used by another application. |
+| Database connection error | Check the database name, username, password and host in the PHP database configuration. |
