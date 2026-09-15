@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Campus Canteen Pre-Order System
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | Team Elevate |
+| **Track** | Open |
+| **Team Lead** | Nandni Patel — 26MCA129@charusat.edu.in |
+| **Members** | Naiya Patel, Nishtha Patel, Siya Pabari |
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+Students often face long queues and delays when ordering food at campus canteens, especially during short breaks and peak hours. Manual order-taking can also lead to order mistakes and makes it difficult for canteen staff to efficiently manage multiple orders
 
 ---
 
@@ -27,15 +27,15 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+The Campus Canteen Pre-Order System is a web-based platform that allows students to view the available menu, select food items, add them to a cart, and place orders in advance. It also provides administrative functionality for managing menu items, users, orders, payments, and digital records.
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
+- **Feature 1:** Online Food Pre-Ordering: Students can select food items and place orders before reaching the canteen.
+- **Feature 2:** Digital Menu: Students can view food items, categories, prices, images, and availability.
+- **Feature 3:** Order Management: Students can place and track orders while canteen administrators manage incoming orders.
 - **Feature 4:** [Optional]
 - **Feature 5:** [Optional]
 
@@ -45,11 +45,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | PHP, HTML5, CSS3, JavaScript |
+| **Frameworks** | None |
+| **IBM Technologies** | [] |
+| **Databases** | MySQL |
+| **Other** | Apache, XAMPP, PHPMailer, GitHub |
 
 ---
 
@@ -108,14 +108,18 @@ cp .env.example .env
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- The current system is a web-based prototype and is primarily designed for campus use.
+- Online payment gateway integration is not currently implemented; the system supports payment-related record management and payment proof upload.
+- Real-time push notifications and SMS notifications are not currently implemented.
+- A dedicated mobile application is not currently available.
+- Advanced inventory management and AI-based recommendations are planned as future enhancements.
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+We are most proud of developing a practical digital solution for a common campus problem: long queues and inefficient manual food ordering. Our system brings students and canteen administration into a single platform, enabling digital menu browsing, food pre-ordering, order management, payment proof handling, and digital record maintenance.
+
+The project successfully demonstrates the complete flow from student registration and menu selection to cart, checkout, order placement, payment proof, and administrative order management.
 
 ---
