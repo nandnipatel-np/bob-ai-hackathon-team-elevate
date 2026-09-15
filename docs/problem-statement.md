@@ -2,20 +2,20 @@
 
 ## Background
 
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+Campus canteens serve a large number of students and staff, especially during short breaks and lunch periods. During peak hours, the traditional counter-based ordering process becomes difficult to manage because many students need to place their orders at the same time.
 
 ## The Problem
 
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
+Students often have to wait in queues to place food orders and collect them from the canteen. This creates crowding during peak hours, increases waiting time, and makes it difficult for canteen staff to efficiently manage multiple orders.
 
 ## Who is Affected
 
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
+The primary users affected are college students and staff who purchase food from the campus canteen. Canteen staff and administrators are also affected because they need to handle multiple orders, payments, and customer requests during busy periods.
 
 ## Why It Matters
 
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+Long queues and manual order handling can waste students' valuable break time and create unnecessary crowding at the canteen. For canteen staff, managing many orders manually can lead to delays, confusion, and difficulty in tracking order and payment information.
 
 ## Why Existing Solutions Fall Short
 
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+The traditional counter-based ordering process depends heavily on manual order taking and in-person communication. It does not provide a convenient way for students to place orders in advance or for canteen staff to efficiently organize and track orders. A centralized pre-order system can reduce these difficulties by allowing users to browse the menu, place orders in advance, and track their order information digitally.
